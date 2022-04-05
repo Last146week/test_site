@@ -1,0 +1,76 @@
+<!DOCTYPE htm>l>
+<html lang="ru">
+   <head>
+         <title>Shop</title>
+         <meta charset="utf-8" />
+         <meta name="vievport" content="width=device-width,
+		 initial-scale=1" />
+         
+	     <link rel="stylesheet"  type="text.css"  href="style.css" />
+		 <link 
+		 rel="stylesheet"
+		 type="text.css"
+		 href="style.css" />
+		 >
+   
+   </head>
+   <body>
+   	<div class="tabs">
+	     <button class="tab active">Товар</button>
+		 <span class="separator">/</span>
+		 <button class="tab cart-tab">Корзина</button>
+	</div>
+	
+	<div class="product-items">
+	     <div class="product-item">
+			<img src="Photo/Cjtw.jpg"> 
+			<div class="product-list">
+			    <h3>Ford</h3>
+				<p class="price">5000$</p>
+			    <button class="button">В корзину</button>
+			</div>
+		 </div>
+	     
+	    <div class="product-item">
+			<img src="Photo/2022-bmw-m8-competition-gran-coupe-e1643177204396_large.jpg"> 
+			<div class="product-list">
+			    <h3>BMW</h3>
+				<p class="price">3500$</p>
+			    <button class="button">В корзину</button>
+			</div>
+		 </div>
+	    
+	     <div class="product-item">
+			<img src="Photo/Master_Homepage_showcase_QQ.jpg.ximg.l_full_m.smart.jpg"> 
+			<div class="product-list">
+			    <h3>BMW</h3>
+				<p class="price">4000$</p>
+			    <button class="button">В корзину</button>
+			</div>
+		 </div>
+	
+	</div>
+	
+	<div class="cart-items">
+	    <div class="cart-item">
+		    <div class="cart-item-title">Ford</div>
+		    <div class="cart-item-count">1шт.</div>
+			<div class="cart-item-price">5000$</div>
+		</div>
+	
+	    <div class="cart-item">
+		    <div class="cart-item-title">BMW</div>
+		    <div class="cart-item-count">1шт.</div>
+			<div class="cart-item-price">3500$</div>
+		</div>
+		
+		<div class="cart-item">
+		    <div class="cart-item-title">Nissan</div>
+		    <div class="cart-item-count">1шт.</div>
+			<div class="cart-item-price">4000$</div>
+		</div>
+	
+	</div>
+   </body>
+
+</html>
